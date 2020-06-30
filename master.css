@@ -45,6 +45,8 @@ header {
 
 .header-sx-wrapper {
   margin-left: 16px;
+  display: flex;
+  position: relative;
 }
 
 .fa-facebook-f {
@@ -61,4 +63,45 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+.lenteCerca {
+  position: absolute;
+  left: 64px;
+  top: 9px;
+}
+.fa-search {
+  color: grey;
+  font-size: 1.2em;
+}
+
+#searchBar {
+  border-radius: 20px;
+  background-color: #3a3b3c;
+  font-size: 1em;
+  border: none;
+  margin-left: 10px;
+  padding: 0 22px;
+}
+
+
+/* lato mid header */
+
+.header-mid-wrapper {
+  display: flex;
+}
+
+#navbar-header-mid {
+  list-style: none;
+  display: inline-block;
+}
+
+#navbar-header-mid li {
+  display: inline-block;
+  padding: 0 60px;
+}
+
+#navbar-header-mid .fas, #navbar-header-mid .far {
+  color: #717476;
+  font-size: 1.5em;
 }
